@@ -1,0 +1,6 @@
+# Two comparators on three wires. The second one can move a small value onto
+# wire 1 after wire 0 has been compared, and nothing compares them again,
+# so this network does not sort.
+wires 3
+0 1
+1 2
